@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 
-const Carousel2 = () => {
+const Carousel = () => {
 	const [current, setCurrent] = useState(0)
 	const [transitionValue, setTransitionValue] = useState(0)
 	const carousel = useRef(null)
@@ -61,4 +61,4 @@ const Carousel2 = () => {
 		</>
 	)
 }
-export default Carousel2
+export default Carousel
